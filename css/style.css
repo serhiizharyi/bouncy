@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
+
+body{
+	background-color: #fff;
+	font: 400 14px/1 "OpenSans", sans-serif;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1210px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+
+/* ============================================================================= */
+/* ==================================== INTRO ================================== */
+/* ============================================================================= */
+
+.ba-home{
+	background: #f3f3f3 url(../img/bg.jpg) no-repeat 0 0 / cover;
+	height: 100%;
+}
+.ba-home::before{
+	/* content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5); */
+}
+.ba-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ba-logo{
+	margin-top: 39px;
+	cursor: pointer;
+}
+.ba-menu{
+	margin: 39px 0 0;
+	list-style: none;
+	display: flex;
+}
+.ba-menu li:hover{
+	/* border: 1px solid #fff; */
+	/* border-radius: 50%; */
+}
+.ba-menu__link{
+	text-decoration: none;
+	color: #fff;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.ba-menu__link:hover{
+	/* border: 1px solid #fff; */
+	color: #333b46;
+}
+.ba-intro{
+	text-align: center;
+	color: #fff;
+}
+.ba-intro__title{
+	margin-top: 221px;
+	margin-bottom: 43px;
+	font-family: 'Source Sans Pro';
+	color: #fff;
+	font-size: 35px;
+	font-weight: 300;
+	letter-spacing: 7px;
+	line-height: 70px;
+	text-transform: uppercase;
+}
+.ba-intro__desc{
+	margin: 0 auto;
+	max-width: 604px;
+	font-family: OpenSans;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 2px;
+}
+.ba-intro__scroll{
+	display: block;
+	margin-top: 220px;
+	margin-bottom: 77px;
+}
+
+
+/* ============================================================================= */
+/* ================================ PORTFOLIO ================================== */
+/* ============================================================================= */
+
+.ba-portfolio{
+	background-color: #f3f3f3;
+	text-align: center;
+}
+.ba-works{
+	padding-bottom: 102px;
+}
+.ba-works__title{
+	color:  #333b46;
+	font-family: 'Source Sans Pro';
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 4px;
+	line-height: 12px;
+	padding-top: 89px;
+	margin-bottom: 41px;
+}
+.ba-works__desc{
+	color: #81868e;
+	font-family: OpenSans;
+	font-size: 14px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 25px; /* Приближение из-за подстановки шрифтов */
+	margin-bottom: 81px;
+}
+.ba-works__menu{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.ba-works__link{
+	text-decoration: none;
+	margin-left: 30px;
+	cursor: pointer;
+	color: #464646;
+}
+
+.ba-row:first-child{
+	margin-left: 30px;
+}
+.ba-row:last-child{
+	margin-left: 30px;
+}
+
+
+/* ============================================================================= */
+/* ================================ THE TEAM =================================== */
+/* ============================================================================= */
+
